@@ -12,3 +12,96 @@ img,
 video {
   display: block;
 }
+
+body {
+  width: 1728px;
+  height: 1117px;
+  padding: 15px;
+  gap: 30px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  background: #ebead2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.section .box {
+  border: 1px solid #979797;
+  background: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+}
+.section-1 .box {
+  width: 25%;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.section-2 .box {
+  width: 50%;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 604px;
+  padding-right: 604px;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.section-4 .box {
+  width: calc(50% - 15px);
+}
+
+.section-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 15px;
+  padding-right: 15px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+  align-items: center;
+}
+.section-5 .box:nth-child(2) {
+  display: flex;
+  align-items: center;
+  height: 200%;
+}
+.section-5 .box:nth-child(3) {
+  display: flex;
+  align-items: center;
+  height: 125%;
+}
+.section-5 .box:nth-child(4) {
+  display: flex;
+  align-items: center;
+  height: 250%;
+}
